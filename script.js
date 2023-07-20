@@ -27,6 +27,7 @@ Vue.createApp({
                 }
             ],
 
+            timer: null,
             activeImageIndex: 0,
         }
     },
@@ -44,12 +45,23 @@ Vue.createApp({
                 this.activeImageIndex = this.slides.length - 1
             }
         },
-        onClickThumb(i){
+        onClickThumb(i) {
             this.activeImageIndex = i
+        },
+
+        stop() {
+            
+            clearInterval(this.timer);
+
+        },
+        play() {
+            //this.timer = setInterval(this.nextClick, 3000)
         }
 
-        
+    },
 
+    mounted() {
+        //this.timer = setInterval(this.nextClick, 3000)
     }
 
 

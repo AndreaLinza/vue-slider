@@ -32,15 +32,19 @@
 
 
         <div class="container">
-            <div class="slider-wrapper" tabindex="0">
+            <div class="slider-wrapper" 
+            v-on:mouseover="stop()" 
+            v-on:mouseleave="play()" 
+            tabindex="0">
 
-                <div class="item"
-                v-for="(slide, i) in slides" 
+                <div class="item" 
+                :class="(activeImageIndex === i ? 'active' : '')" 
+                v-for="(slide, i) in slides"
                 v-show="(activeImageIndex === i)">
                     <img :src="slide.image" alt={{slide.title}} />
-                    <div class="text">
-                        <h3>{{ slide.title }}</h3>
-                        <p>{{ slide.text }}</p>
+                    <div class="text my-bg">
+                        <h3 class="px-3 py-2">{{ slide.title }}</h3>
+                        <p class="w-75 px-3 ms-auto">{{ slide.text }}</p>
                     </div>
                 </div>
 
@@ -48,8 +52,8 @@
                     <div class="prev" @click="prevClick()"></div>
                     <div class="next" @click="nextClick()"></div>
                     <div class="thumb" 
-                    v-for="(thumb, i) in slides" 
-                    @click="onClickThumb(i)">
+                    :class="(activeImageIndex === i ? 'active' : '')"
+                    v-for="(thumb, i) in slides" @click="onClickThumb(i)">
                         <img :src="thumb.image" alt={{thumb.title}} />
                     </div>
                 </div>
