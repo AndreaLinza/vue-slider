@@ -5,25 +5,25 @@ Vue.createApp({
 
             slides: [
                 {
-                    image: 'img/01.webp',
-                    title: 'Marvel\'s Spiderman Miles Morale',
-                    text: 'Experience the rise of Miles Morales as the new hero masters incredible, explosive new powers to become his own Spider-Man.',
+                    image: 'img/Born-to-grill.jpg',
+                    title: 'Born to Grill',
+                    text: 'Un esperienza senza pari che ti porterà ad immergerti nei meandri della VERA guerra. Un action, strategico senza pari',
                 }, {
-                    image: 'img/02.webp',
-                    title: 'Ratchet & Clank: Rift Apart',
-                    text: 'Go dimension-hopping with Ratchet and Clank as they take on an evil emperor from another reality.',
+                    image: 'img/Pokemon.jpg',
+                    title: 'Pokemon: acchiappali tutti ',
+                    text: "Goditi le fantastiche musiche di Kanto e 'acchiappa' tutti i fantastici animaletti per farli diventare tuoi amici ",
                 }, {
-                    image: 'img/03.webp',
-                    title: 'Fortnite',
-                    text: "Grab all of your friends and drop into Epic Games Fortnite, a massive 100 - player face - off that combines looting, crafting, shootouts and chaos.",
+                    image: 'img/takedown-red-sabre.jpg',
+                    title: 'TakeDown Red Sabre',
+                    text: "Invita tutti i tuoi amici a giocare a questo fantastico gioco di strategia-simulativo e divertiti in mappe 'piccionaie' ",
                 }, {
-                    image: 'img/04.webp',
-                    title: 'Stray',
-                    text: 'Lost, injured and alone, a stray cat must untangle an ancient mystery to escape a long-forgotten city',
+                    image: 'img/Dark.jpg',
+                    title: 'Dark Shadows: Army of Evil',
+                    text: "Dagli sviluppatori di Final Fantasy, un RPG a tutto tondo che vi porterà a scontri mozzafiato, con un combat rinnovato e action",
                 }, {
-                    image: 'img/05.webp',
-                    title: "Marvel's Avengers",
-                    text: 'Marvel\'s Avengers is an epic, third-person, action-adventure game that combines an original, cinematic story with single-player and co-operative gameplay.',
+                    image: 'img/TLOU.png',
+                    title: "The Loss of Ass",
+                    text: 'Gioco di spara spara zombie, narrativo, strappalacrime. Coinvolgiti emotivamente in questa fantastica storia fatta di zombie e amore paterno',
                 }
             ],
 
