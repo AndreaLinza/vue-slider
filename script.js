@@ -7,7 +7,7 @@ Vue.createApp({
                 {
                     image: 'img/Born-to-grill.jpg',
                     title: 'Born to Grill',
-                    text: 'Un esperienza senza pari che ti porterà ad immergerti nei meandri della VERA guerra. Un action, strategico senza pari',
+                    text: 'Un esperienza senza pari che ti porterà ad immergerti nei meandri della VERA guerra. Un action, strategico che ti farà sentire un vero animale',
                 }, {
                     image: 'img/Pokemon.jpg',
                     title: 'Pokemon: acchiappali tutti ',
@@ -41,6 +41,8 @@ Vue.createApp({
         },
         prevClick() {
             this.activeImageIndex--
+
+            
             if (this.activeImageIndex < 0) {
                 this.activeImageIndex = this.slides.length - 1
             }
