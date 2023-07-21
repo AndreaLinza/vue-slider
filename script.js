@@ -55,13 +55,13 @@ Vue.createApp({
 
         },
         play() {
-            //this.timer = setInterval(this.nextClick, 3000)
+            this.timer = setInterval(this.nextClick, 3000)
         }
 
     },
 
     mounted() {
-        //this.timer = setInterval(this.nextClick, 3000)
+        this.timer = setInterval(this.nextClick, 3000)
     }
 
 
